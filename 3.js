@@ -251,4 +251,4 @@ function savepass() {
   document.getElementById("balanceInsert").style.display = (this.money);
   console.log("newpage...");
 }
-
+// kgjfjfjk
