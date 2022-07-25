@@ -1,0 +1,103 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="5" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="3.js"></script>
+    <script src="3.0.js"></script>
+    <link rel="stylesheet" href="3.css" />
+    <title>Sign up</title>
+  </head>
+
+  <body>
+    <!--page 1-->
+    <fieldset class="application" id="myname">
+      <div>
+        <img src="no-profile-picture-icon-1.png" alt="" id="pic" /><br />
+        <label for="" id="firstnamelable"
+          >first name: <span id="thisname1"></span></label
+        ><span id="thisname"></span><br />
+        <input
+          type="text"
+          class="blockme"
+          id="firstname"
+          value="name"
+          style="float: left"
+          autocomplete="on"
+        /><br />
+        <label for="" required>last name: <span id="thisname2"></span></label
+        ><br />
+        <input
+          type="text"
+          class="blockme"
+          id="lastname"
+          value="name"
+          style="float: left"
+          autocomplete="on"
+          required
+        /><br />
+        <label for="myemail">Gmail: <span id="thisemail"></span></label>
+        <input
+          type="email"
+          class="blockme"
+          id="myemail"
+          value="@name"
+          autocomplete="on"
+          required
+        /><br />
+        <label for="">birth date: <span id="thisage"></span></label><br />
+        <input
+          type="date"
+          class="blockme"
+          id="myage"
+          max="dd()"
+          value="2000-12-06"
+          autocomplete="on"
+        /><br /><br />
+
+        <input id="ab" type="button" value="send" onclick="myshoot()" />
+        <span id="push"></span>
+      </div>
+    </fieldset>
+
+    <!--page 2-->
+    <div id="centerfix">
+      <div class="applicationpro" id="profilebox1" style="display: none">
+        <button href="#" style="border-top: solid 5px rgb(158, 159, 125)">
+          defult option
+        </button>
+        <button href="#">option 1</button>
+        <button href="#">option 2</button>
+        <button href="#" style="border-bottom: solid 5px rgb(158, 159, 125)">
+          option 3
+        </button>
+      </div>
+
+      
+      <div class="applicationproelse" id="profilebox2" style="display:none;">
+       <div id="paddingfix">
+         <select id="">
+       <option value="">deposit</option>
+       <option value="">withdraw</option>
+     </select>
+     <input type="number">
+     <br><br>
+     <label>reason:   </lable>
+     <input type="text" style="float:right;"><br><br>
+     <hr>
+     <label for="">password:</label>
+     <input type="password" style="float:right;"><br><br>
+     <button type="submit" style="float:right;">click</button>
+     </div>
+    </div>
+
+      <div class="applicationpro" id="profilebox3" style="display: none">
+        <img src="no-profile-picture-icon-1.png" alt="" id="pic" />
+        <p>account holder: <span></span></p>
+        <p >balance: <span id="balanceInsert" ></span></p>
+      </div>
+    </div>
+
+    <!-- add to send <hr style="width:50%;text-align:left;margin-left:0">-->
+  </body>
+</html>

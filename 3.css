@@ -1,0 +1,145 @@
+body {
+    background-color: rgba(89, 118, 87, 0.805);
+}
+.application {
+    justify-content: center;
+    display: block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.321);
+    border: 6px solid rgb(111, 109, 113);
+    border-radius: 5%;
+    width: 15%;
+    margin: auto;
+    margin-top: 100px;
+
+    
+}
+.applicationpass {
+    justify-content: center;
+    display: block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.321);
+    border: 6px solid rgb(111, 109, 113);
+    border-radius: 5%;
+    width: 15%;
+    margin: auto;
+    margin-top: 2px;
+    visibility: hidden;
+    transition: visibility 5s;
+    
+}
+
+.applicationpass div {
+    padding: 15px;
+    font-size: 17px;
+
+}
+.application div {
+    padding: 15px;
+    font-size: 17px;
+    
+}
+.applicationpro {
+    justify-content: center;
+    display: inline;
+   float: left;
+   height: 240px;
+   overflow: hidden;
+
+
+}
+.applicationpro button {
+    background-color: #eee;
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin: 0px;
+    width: 190px;
+    padding: 15px;
+    border-left: solid 5px rgb(158, 159, 125);
+    border-right: solid 5px rgb(158, 159, 125);
+    border-top: none;
+    border-bottom: none;
+    height: 60px;
+
+}
+.applicationpro button:hover {
+    background-color: rgb(223, 200, 139);
+}
+.applicationproelse {
+    justify-content: center;
+    display: inline;
+   float: left;
+   height: 240px;
+   overflow: hidden;
+
+
+
+}
+#paddingfix {
+    padding: 10px;
+}
+#centerfix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#profilebox3 {
+    background-color: rgb(255, 255, 255);
+    border: solid 5px rgb(158, 159, 125);
+    height: 230px;
+    padding-left: 15px ;
+    padding-right: 15px;
+
+}
+#profilebox3 img {
+    padding: 10px;
+}
+#profilebox2 {
+    background-color: rgb(255, 255, 255);
+    border: solid 5px rgb(158, 159, 125);
+    height: 230px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+/*.applicationpro div {
+    padding: 15px;
+    font-size: 17px;
+    width: auto;
+}*/
+#big fieldset {
+    float: left;
+
+}
+#big {
+    justify-content: center;
+    display: block;
+
+    margin: auto;
+    margin-left: auto;
+
+}
+
+#total {
+    border: 2px solid brown;
+    color:rgb(11, 9, 2);
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+#pic {
+    border-radius: 50%;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+#ab {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 100%;
+}
